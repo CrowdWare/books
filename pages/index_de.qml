@@ -1,4 +1,5 @@
 import FlatSiteBuilder 2.0
+import ImageEditor 1.0
 import TextEditor 1.0
 
 Content {
@@ -9,18 +10,10 @@ Content {
     language: "de"
 
     Section {
+        fullwidth: true
 
-        Row {
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;p&gt;
-&lt;/p&gt;
-&lt;h1&gt;Willkommen auf meiner Buchseite&lt;/h1&gt;"
-                }
-            }
+        Image {
+            src: "banner.png"
         }
     }
 
@@ -32,7 +25,7 @@ Content {
                 span: 12
 
                 Text {
-                    text: "&lt;h2&gt;&lt;strong&gt;Bücher&lt;/strong&gt;&lt;/h2&gt;
+                    text: "
 &lt;ul class=&quot;nav nav-pills isotope-filter isotope-filter&quot; data-sort-id=&quot;isotope-list&quot; data-option-key=&quot;filter&quot;&gt;
 	&lt;li data-option-value=&quot;*&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Zeige alle&lt;/a&gt;&lt;/li&gt;
 	&lt;li data-option-value=&quot;.programming&quot;&gt;&lt;a href=&quot;#&quot;&gt;Programmierung&lt;/a&gt;&lt;/li&gt;
@@ -261,9 +254,9 @@ Content {
                 Text {
                     text: "&lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;col-sm-12 col-md-12&quot;&gt;
-		&lt;div class=&quot;item-box fixed-box&quot;&gt;
+		&lt;div class=&quot;item-box&quot;&gt;
 			&lt;figure&gt;
-				&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/olaf.jpg&quot; width=&quot;263&quot; height=&quot;263&quot; alt=&quot;&quot;/&gt;
+				&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/olaf.jpg&quot; alt=&quot;&quot;/&gt;
 			&lt;/figure&gt;
 			&lt;div class=&quot;item-box-desc&quot;&gt;
 				&lt;h4&gt;Adam Art Ananda&lt;/h4&gt;
@@ -286,7 +279,8 @@ Content {
                 span: 8
 
                 Text {
-                    text: "&lt;div class=&quot;white-row&quot;&gt;
+                    text: "
+&lt;div class=&quot;white-row&quot;&gt;
 	&lt;h3&gt;Über &lt;strong&gt;Art&lt;/strong&gt;&lt;/h3&gt;
 	&lt;p&gt;&lt;strong&gt;Art&lt;/strong&gt; wurde im November 1963 als Skorpion in Hamburg geboren. Nach Abschluss der Sekundarschule absolvierte er eine Ausbildung als Maschinenschlosser. Als ihn eine Wirbelsäulenerkrankung aus dem Arbeitsprozess riss, den er sowieso nicht mochte, entschied er sich, sich an der Meisterschule einzuschreiben.&lt;br&gt;
 Gleichzeitig begann er ein Fernstudium, um Maschinenbautechniker zu werden. Art brach das Technikerstudium nach dem zweiten Semester ab, weil er bereits während seines Studiums sein erstes Programm entwickelt hatte, mit dem er schnell eine beträchtliche Summe Geld verdienen konnte.&lt;br&gt;&lt;br&gt;

@@ -1,4 +1,5 @@
 import FlatSiteBuilder 2.0
+import ImageEditor 1.0
 import TextEditor 1.0
 
 Content {
@@ -10,17 +11,10 @@ Content {
     language: "en"
 
     Section {
+        fullwidth: true
 
-        Row {
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;p&gt;&lt;/p&gt;
-&lt;h1&gt;Welcome to my books page&lt;/h1&gt;"
-                }
-            }
+        Image {
+            src: "banner.png"
         }
     }
 
@@ -32,7 +26,7 @@ Content {
                 span: 12
 
                 Text {
-                    text: "&lt;h2&gt;&lt;strong&gt;Books&lt;/strong&gt;&lt;/h2&gt;
+                    text: "
 &lt;ul class=&quot;nav nav-pills isotope-filter isotope-filter&quot; data-sort-id=&quot;isotope-list&quot; data-option-key=&quot;filter&quot;&gt;
 	&lt;li data-option-value=&quot;*&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Show all&lt;/a&gt;&lt;/li&gt;
 	&lt;li data-option-value=&quot;.programming&quot;&gt;&lt;a href=&quot;#&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
@@ -195,7 +189,7 @@ Content {
                 Text {
                     text: "&lt;div class=&quot;row&quot;&gt;
 	&lt;div class=&quot;col-sm-12 col-md-12&quot;&gt;
-		&lt;div class=&quot;item-box fixed-box&quot;&gt;
+		&lt;div class=&quot;item-box&quot;&gt;
 			&lt;figure&gt;
 				&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/olaf.jpg&quot;  alt=&quot;&quot;/&gt;
 			&lt;/figure&gt;
