@@ -153,7 +153,11 @@ It’s important to me to share valuable information that I’ve also received o
 If you’d like to support my work, I’d be delighted if you bought one or more of my books.
 Or simply show your appreciation by clicking the Gift Button and sending a few euros my way.
 
-&lt;script async
+"
+                }
+
+                Text {
+                    text: "&lt;script async
   src=&quot;https://js.stripe.com/v3/buy-button.js&quot;&gt;
 &lt;/script&gt;
 

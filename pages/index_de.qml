@@ -226,8 +226,11 @@ Mir ist es wichtig, wertvolle Informationen weiterzugeben, die auch ich kostenlo
 
 Wenn Du meine Arbeit unterstützen möchtest, freue ich mich natürlich, wenn Du eines oder mehrere meiner Bücher kaufst.
 Oder zeige Deine Wertschätzung, indem Du auf den Schenken-Button klickst und mir ein paar Euros zukommen lässt.
+"
+                }
 
-&lt;script async
+                Text {
+                    text: "&lt;script async
   src=&quot;https://js.stripe.com/v3/buy-button.js&quot;&gt;
 &lt;/script&gt;
 
