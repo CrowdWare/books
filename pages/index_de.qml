@@ -1,5 +1,6 @@
 import FlatSiteBuilder 2.0
 import ImageEditor 1.0
+import MarkdownEditor 1.0
 import TextEditor 1.0
 
 Content {
@@ -24,16 +25,54 @@ Content {
             Column {
                 span: 12
 
+                Markdown {
+                    text: "&lt;div class=&quot;mt-5&quot;/&gt;
+
+Moin,
+
+schön, dass Du meine Bücher gefunden hast!
+Eigentlich habe ich sie für mich selbst geschrieben – als Anleitung für den Fall, dass ich irgendwann nochmal auf diesem Planeten inkarnieren sollte. So hätte ich früh die Chance, zu verstehen, wie es hier läuft.
+
+Aber vielleicht sind sie ja auch nützlich für Dich.
+Und wenn nicht, ist das auch nicht schlimm."
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 12
+
                 Text {
                     text: "
 &lt;ul class=&quot;nav nav-pills isotope-filter isotope-filter&quot; data-sort-id=&quot;isotope-list&quot; data-option-key=&quot;filter&quot;&gt;
 	&lt;li data-option-value=&quot;*&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Zeige alle&lt;/a&gt;&lt;/li&gt;
-	&lt;li data-option-value=&quot;.programming&quot;&gt;&lt;a href=&quot;#&quot;&gt;Programmierung&lt;/a&gt;&lt;/li&gt;
 	&lt;li data-option-value=&quot;.spiritual&quot;&gt;&lt;a href=&quot;#&quot;&gt;Spiritualität&lt;/a&gt;&lt;/li&gt;
 	&lt;li data-option-value=&quot;.lifehacks&quot;&gt;&lt;a href=&quot;#&quot;&gt;Life Hacks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;row&quot;&gt;
 	&lt;ul class=&quot;sort-destination isotope&quot; data-sort-id=&quot;isotope-list&quot;&gt;
+
+		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 lifehacks spiritual&quot;&gt;
+			&lt;div class=&quot;item-box&quot;&gt;
+				&lt;figure&gt;
+					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.epubli.com/shop/die-reise-zum-wahren-leben-9783818731199&quot;&gt;
+						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
+						&lt;span class=&quot;inner&quot;&gt;
+							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
+							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
+						&lt;/span&gt;
+					&lt;/a&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/DieReiseZumWahrenLeben.jpg&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+				&lt;/figure&gt;
+				&lt;!--div class=&quot;item-box-desc&quot;&gt;
+					&lt;h4&gt;Der Wandel des Geldes&lt;/h4&gt;
+					&lt;small class=&quot;styleColor&quot;&gt;Die Zukunft des Zahlungsmittels und ökonomische Transformation&lt;/small&gt;
+				&lt;/div--&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+		
 
 		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 programming lifehacks&quot;&gt;
 			&lt;div class=&quot;item-box&quot;&gt;
@@ -45,7 +84,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/CoverWandel_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/CoverWandel_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Der Wandel des Geldes&lt;/h4&gt;
@@ -53,7 +92,8 @@ Content {
 				&lt;/div--&gt;
 			&lt;/div&gt;
 		&lt;/li&gt;
-				&lt;li class=&quot;isotope-item col-sm-6 col-md-3 spiritual&quot;&gt;
+		
+		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 spiritual&quot;&gt;
 			&lt;div class=&quot;item-box&quot;&gt;
 				&lt;figure&gt;
 					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.amazon.de/dp/B08CB8Q54L&quot;&gt;
@@ -63,7 +103,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/Cover_manifestation_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/Cover_manifestation_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Manifestiere ein besseres Leben&lt;/h4&gt;
@@ -81,7 +121,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/cover_heldenreise_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/cover_heldenreise_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Meine Heldenreise&lt;/h4&gt;
@@ -100,7 +140,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/cover_postcorona_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/cover_postcorona_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Post Corona Gesellschaft&lt;/h4&gt;
@@ -119,7 +159,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/cover_unterhaltung_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/cover_unterhaltung_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Unterhaltung mit meinem höheren Selbst&lt;/h4&gt;
@@ -139,7 +179,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/coverebook_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/coverebook_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Camp Eden&lt;/h4&gt;
@@ -158,7 +198,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/Cover_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/Cover_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Die Kunst zu Leben und zu Lieben&lt;/h4&gt;
@@ -167,66 +207,35 @@ Content {
 			&lt;/div&gt;
 		&lt;/li&gt;
 
-		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 programming&quot;&gt;
-			&lt;div class=&quot;item-box&quot;&gt;
-				&lt;figure&gt;
-					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.amazon.de/dp/B089644P5L&quot;&gt;
-						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-						&lt;span class=&quot;inner&quot;&gt;
-							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
-						&lt;/span&gt;
-					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/PythonGUIDE_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
-				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Python GUI&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;Erstelle Cross Platform Desktop Applikationen mit Python, Qt und PyQt5&lt;/small&gt;
-				&lt;/div--&gt;
-			&lt;/div&gt;
-		&lt;/li&gt;
-
-		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 programming&quot;&gt;
-			&lt;div class=&quot;item-box&quot;&gt;
-				&lt;figure&gt;
-					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.amazon.de/dp/B0BXYPZ6VY&quot;&gt;
-						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-						&lt;span class=&quot;inner&quot;&gt;
-							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
-						&lt;/span&gt;
-					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/PythonGUI_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
-				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Python GUI&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;Erstelle Cross Plattform Desktop Applikationen mit Python, Qt und PySide6&lt;/small&gt;
-				&lt;/div--&gt;
-			&lt;/div&gt;
-		&lt;/li&gt;
-
-		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 programming&quot;&gt;
-			&lt;div class=&quot;item-box&quot;&gt;
-				&lt;figure&gt;
-					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.amazon.de/dp/B08BG5XNPL&quot;&gt;
-						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-						&lt;span class=&quot;inner&quot;&gt;
-							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
-						&lt;/span&gt;
-					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/CoverDE_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
-				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Python GUI&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;Erstelle Android Applikationen mit Python, Qt und PyQt5&lt;/small&gt;
-				&lt;/div--&gt;
-			&lt;/div&gt;
-		&lt;/li&gt;
 
 	&lt;/ul&gt;
 &lt;/div&gt;"
                     adminlabel: "Bücher"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 12
+
+                Markdown {
+                    text: "Du kannst all meine Bücher kostenlos als EPUB oder PDF herunterladen.
+Mir ist es wichtig, wertvolle Informationen weiterzugeben, die auch ich kostenlos erfahren oder erlebt habe.
+
+Wenn Du meine Arbeit unterstützen möchtest, freue ich mich natürlich, wenn Du eines oder mehrere meiner Bücher kaufst.
+Oder zeige Deine Wertschätzung, indem Du auf den Schenken-Button klickst und mir ein paar Euros zukommen lässt.
+
+&lt;script async
+  src=&quot;https://js.stripe.com/v3/buy-button.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;stripe-buy-button
+  buy-button-id=&quot;buy_btn_1QQTLRLrBLHuJoe9GA8ihm94&quot;
+  publishable-key=&quot;pk_live_51QIlYaLrBLHuJoe9JaECAad04pTIKt0xuqOnOW51YEtbkyB07lLDzeHkmB60noN3qwlTPc25YFpgf0BzwzzKqWxc00Jcs6Gwr1&quot;
+&gt;
+&lt;/stripe-buy-button&gt;"
                 }
             }
         }
@@ -261,7 +270,7 @@ Content {
 			&lt;div class=&quot;item-box-desc&quot;&gt;
 				&lt;h4&gt;Adam Art Ananda&lt;/h4&gt;
 				&lt;small class=&quot;styleColor&quot;&gt;Telegram: &lt;a href=&quot;https://t.me/artanidos&quot;&gt;@artanidos&lt;/a&gt;&lt;/small&gt;
-				&lt;small class=&quot;styleColor&quot;&gt;Tel/SMS: +34 697 531 505&lt;/small&gt;
+				&lt;small class=&quot;styleColor&quot;&gt;Tel/SMS: +49 3491 6449633&lt;/small&gt;
 				&lt;p&gt;&lt;a href=&quot;mailto:artanidos@crowdware.at&quot;&gt;artanidos@crowdware.at&lt;/a&gt;&lt;/p&gt;
 				&lt;div class=&quot;row socials&quot;&gt;
 					&lt;a href=&quot;https://www.facebook.com/artanidos&quot; class=&quot;social fa fa-facebook&quot;&gt;&lt;/a&gt;

@@ -1,5 +1,6 @@
 import FlatSiteBuilder 2.0
 import ImageEditor 1.0
+import MarkdownEditor 1.0
 import TextEditor 1.0
 
 Content {
@@ -25,11 +26,29 @@ Content {
             Column {
                 span: 12
 
+                Markdown {
+                    text: "&lt;div class=&quot;mt-5&quot;/&gt;
+
+Hi there,
+
+I’m glad you found my books!
+To be honest, I wrote them mainly for myself – as a kind of guide, in case I ever decide to reincarnate on this planet again. That way, I’d have an early chance to understand how things work around here.
+
+But maybe they’ll be useful to you as well.
+And if not, that’s perfectly fine too."
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 12
+
                 Text {
                     text: "
 &lt;ul class=&quot;nav nav-pills isotope-filter isotope-filter&quot; data-sort-id=&quot;isotope-list&quot; data-option-key=&quot;filter&quot;&gt;
 	&lt;li data-option-value=&quot;*&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Show all&lt;/a&gt;&lt;/li&gt;
-	&lt;li data-option-value=&quot;.programming&quot;&gt;&lt;a href=&quot;#&quot;&gt;Programming&lt;/a&gt;&lt;/li&gt;
 	&lt;li data-option-value=&quot;.spiritual&quot;&gt;&lt;a href=&quot;#&quot;&gt;Spiritual&lt;/a&gt;&lt;/li&gt;
 	&lt;li data-option-value=&quot;.lifehacks&quot;&gt;&lt;a href=&quot;#&quot;&gt;Life Hacks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -46,7 +65,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/cover_conversation_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/cover_conversation_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Conversation with my higher self&lt;/h4&gt;
@@ -66,7 +85,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/cover_theart_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/cover_theart_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;The Art of Living and Loving&lt;/h4&gt;
@@ -85,7 +104,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/CoverCampEdenEN_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/CoverCampEdenEN_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Camp Eden&lt;/h4&gt;
@@ -104,7 +123,7 @@ Content {
 							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
 						&lt;/span&gt;
 					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/CoverSetpOut_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/CoverSetpOut_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
 				&lt;!--div class=&quot;item-box-desc&quot;&gt;
 					&lt;h4&gt;Step Out&lt;/h4&gt;
@@ -113,55 +132,36 @@ Content {
 			&lt;/div&gt;
 		&lt;/li&gt;
 
-		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 programming&quot;&gt;
-			&lt;div class=&quot;item-box&quot;&gt;
-				&lt;figure&gt;
-					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.amazon.com/dp/B0891YRMJT&quot;&gt;
-						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-						&lt;span class=&quot;inner&quot;&gt;
-							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
-						&lt;/span&gt;
-					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/CoverEN_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
-				&lt;/figure&gt;
-			&lt;/div&gt;
-		&lt;/li&gt;
-
-		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 programming&quot;&gt;
-			&lt;div class=&quot;item-box&quot;&gt;
-				&lt;figure&gt;
-					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.amazon.co.uk/dp/B0BY3PKBSM&quot;&gt;
-						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-						&lt;span class=&quot;inner&quot;&gt;
-							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
-						&lt;/span&gt;
-					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/PythonGUI_EN_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
-				&lt;/figure&gt;
-			&lt;/div&gt;
-		&lt;/li&gt;
-
-		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 programming&quot;&gt;
-			&lt;div class=&quot;item-box&quot;&gt;
-				&lt;figure&gt;
-					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.amazon.co.uk/dp/B088FWNFQP&quot;&gt;
-						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-						&lt;span class=&quot;inner&quot;&gt;
-							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
-						&lt;/span&gt;
-					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/PythonGUIEN_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
-				&lt;/figure&gt;
-			&lt;/div&gt;
-		&lt;/li&gt;
 
 
 	&lt;/ul&gt;
 &lt;/div&gt;"
                     adminlabel: "Books"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 12
+
+                Markdown {
+                    text: "You can download all my books for free as EPUB or PDF.
+It’s important to me to share valuable information that I’ve also received or experienced for free.
+
+If you’d like to support my work, I’d be delighted if you bought one or more of my books.
+Or simply show your appreciation by clicking the Gift Button and sending a few euros my way.
+
+&lt;script async
+  src=&quot;https://js.stripe.com/v3/buy-button.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;stripe-buy-button
+  buy-button-id=&quot;buy_btn_1QQTc4LrBLHuJoe9ohkK0kab&quot;
+  publishable-key=&quot;pk_live_51QIlYaLrBLHuJoe9JaECAad04pTIKt0xuqOnOW51YEtbkyB07lLDzeHkmB60noN3qwlTPc25YFpgf0BzwzzKqWxc00Jcs6Gwr1&quot;
+&gt;
+&lt;/stripe-buy-button&gt;"
                 }
             }
         }
@@ -196,7 +196,7 @@ Content {
 			&lt;div class=&quot;item-box-desc&quot;&gt;
 				&lt;h4&gt;Adam Art Ananda&lt;/h4&gt;
 				&lt;small class=&quot;styleColor&quot;&gt;Telegram: &lt;a href=&quot;https://t.me/artanidos&quot;&gt;@artanidos&lt;/a&gt;&lt;/small&gt;
-				&lt;small class=&quot;styleColor&quot;&gt;Tel/SMS: +34 697 531 505&lt;/small&gt;
+				&lt;small class=&quot;styleColor&quot;&gt;Tel/SMS: +49 3491 6449633&lt;/small&gt;
 				&lt;p&gt;&lt;a href=&quot;mailto:artanidos@crowdware.at&quot;&gt;artanidos@crowdware.at&lt;/a&gt;&lt;/p&gt;
 				&lt;div class=&quot;row socials&quot;&gt;
 					&lt;a href=&quot;https://www.facebook.com/artanidos&quot; class=&quot;social fa fa-facebook&quot;&gt;&lt;/a&gt;
