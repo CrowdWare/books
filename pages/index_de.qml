@@ -66,10 +66,11 @@ Und wenn nicht, ist das auch nicht schlimm."
 					&lt;/a&gt;
 					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/DieReiseZumWahrenLeben.jpg&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Der Wandel des Geldes&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;Die Zukunft des Zahlungsmittels und ökonomische Transformation&lt;/small&gt;
-				&lt;/div--&gt;
+ 				&lt;div class=&quot;button-container&quot;&gt;
+          	     	&lt;a href=&quot;books/DieReiseZumWahrenLeben.epub&quot; class=&quot;btn btn-icon&quot; target=&quot;_blank&quot;&gt;
+            	    	&lt;i class=&quot;fas fa-book&quot;&gt;&lt;/i&gt; EPUB
+            		&lt;/a&gt;
+        		&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/li&gt;
 		
@@ -86,10 +87,12 @@ Und wenn nicht, ist das auch nicht schlimm."
 					&lt;/a&gt;
 					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/CoverWandel_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Der Wandel des Geldes&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;Die Zukunft des Zahlungsmittels und ökonomische Transformation&lt;/small&gt;
-				&lt;/div--&gt;
+	
+				&lt;div class=&quot;button-container&quot;&gt;
+            		&lt;a href=&quot;books/DerWandelDesGeldes.pdf&quot; class=&quot;btn btn-icon&quot; target=&quot;_blank&quot;&gt;
+                	&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF
+            		&lt;/a&gt;
+				&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/li&gt;
 		
@@ -105,12 +108,14 @@ Und wenn nicht, ist das auch nicht schlimm."
 					&lt;/a&gt;
 					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/Cover_manifestation_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Manifestiere ein besseres Leben&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;Ich mach mir die Welt, widde widde wie sie mir gefällt&lt;/small&gt;
-				&lt;/div--&gt;
+				&lt;div class=&quot;button-container&quot;&gt;
+            		&lt;a href=&quot;books/Manifestation.pdf&quot; class=&quot;btn btn-icon&quot; target=&quot;_blank&quot;&gt;
+                	&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF
+            		&lt;/a&gt;
+				&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/li&gt;
+
 		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 spiritual&quot;&gt;
 			&lt;div class=&quot;item-box&quot;&gt;
 				&lt;figure&gt;
@@ -123,10 +128,11 @@ Und wenn nicht, ist das auch nicht schlimm."
 					&lt;/a&gt;
 					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/cover_heldenreise_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Meine Heldenreise&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;&lt;/small&gt;
-				&lt;/div--&gt;
+				&lt;div class=&quot;button-container&quot;&gt;
+            		&lt;a href=&quot;books/MeineHeldenreise.pdf&quot; class=&quot;btn btn-icon&quot; target=&quot;_blank&quot;&gt;
+                	&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF
+            		&lt;/a&gt;
+				&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/li&gt;
 
@@ -142,10 +148,11 @@ Und wenn nicht, ist das auch nicht schlimm."
 					&lt;/a&gt;
 					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/cover_postcorona_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Post Corona Gesellschaft&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;&lt;/small&gt;
-				&lt;/div--&gt;
+				&lt;div class=&quot;button-container&quot;&gt;
+            		&lt;a href=&quot;books/PostCoronaGesellschaft.pdf&quot; class=&quot;btn btn-icon&quot; target=&quot;_blank&quot;&gt;
+                	&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF
+            		&lt;/a&gt;
+				&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/li&gt;
 
@@ -161,10 +168,11 @@ Und wenn nicht, ist das auch nicht schlimm."
 					&lt;/a&gt;
 					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/cover_unterhaltung_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Unterhaltung mit meinem höheren Selbst&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;&lt;/small&gt;
-				&lt;/div--&gt;
+				&lt;div class=&quot;button-container&quot;&gt;
+            		&lt;a href=&quot;books/Unterhaltung.pdf&quot; class=&quot;btn btn-icon&quot; target=&quot;_blank&quot;&gt;
+                	&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF
+            		&lt;/a&gt;
+				&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/li&gt;
 
@@ -181,29 +189,11 @@ Und wenn nicht, ist das auch nicht schlimm."
 					&lt;/a&gt;
 					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/coverebook_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
 				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Camp Eden&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;Wie wir unser Paradies wiedererschafft haben&lt;/small&gt;
-				&lt;/div--&gt;
-			&lt;/div&gt;
-		&lt;/li&gt;
-
-		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 spiritual&quot;&gt;
-			&lt;div class=&quot;item-box&quot;&gt;
-				&lt;figure&gt;
-					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.amazon.de/dp/B079QC1NCY&quot;&gt;
-						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
-						&lt;span class=&quot;inner&quot;&gt;
-							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
-						&lt;/span&gt;
-					&lt;/a&gt;
-					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/Cover_300.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
-				&lt;/figure&gt;
-				&lt;!--div class=&quot;item-box-desc&quot;&gt;
-					&lt;h4&gt;Die Kunst zu Leben und zu Lieben&lt;/h4&gt;
-					&lt;small class=&quot;styleColor&quot;&gt;&lt;/small&gt;
-				&lt;/div--&gt;
+				&lt;div class=&quot;button-container&quot;&gt;
+            		&lt;a href=&quot;books/CampEden.pdf&quot; class=&quot;btn btn-icon&quot; target=&quot;_blank&quot;&gt;
+                	&lt;i class=&quot;fas fa-file-pdf&quot;&gt;&lt;/i&gt; PDF
+            		&lt;/a&gt;
+				&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/li&gt;
 
