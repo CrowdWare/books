@@ -78,7 +78,7 @@ Und wenn nicht, ist das auch nicht schlimm."
 		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 programming lifehacks&quot;&gt;
 			&lt;div class=&quot;item-box&quot;&gt;
 				&lt;figure&gt;
-					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://buchshop.bod.de/der-wandel-des-geldes-adam-art-ananda-9783758310843&quot;&gt;
+					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.epubli.com/?s=adam+art+ananda&quot;&gt;
 						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
 						&lt;span class=&quot;inner&quot;&gt;
 							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
@@ -214,10 +214,54 @@ Und wenn nicht, ist das auch nicht schlimm."
                     text: "Du kannst all meine Bücher kostenlos als EPUB oder PDF herunterladen.
 Mir ist es wichtig, wertvolle Informationen weiterzugeben, die auch ich kostenlos erfahren oder erlebt habe.
 
+"
+                }
+            }
+        }
+    }
+
+    Section {
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;!-- CALLOUT --&gt;
+&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
+	&lt;h3&gt;Willst Du die &lt;strong&gt;APP&lt;/strong&gt; für Android haben und anfangen Bücher zu lesen?&lt;a href=&quot;https://github.com/CrowdWare/NoCodeBrowser/releases&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;DOWNLOAD&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;!-- /CALLOUT --&gt;
+
+"
+                    adminlabel: "callout"
+                }
+            }
+        }
+    }
+
+    Section {
+
+        Row {
+
+            Column {
+                span: 12
+
+                Markdown {
+                    text: "&lt;div class=&quot;margin-top80&quot;&gt;
 Wenn Du meine Arbeit unterstützen möchtest, freue ich mich natürlich, wenn Du eines oder mehrere meiner Bücher kaufst.
 Oder zeige Deine Wertschätzung, indem Du auf den Schenken-Button klickst und mir ein paar Euros zukommen lässt.
 "
                 }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 12
 
                 Text {
                     text: "&lt;script async
@@ -229,12 +273,10 @@ Oder zeige Deine Wertschätzung, indem Du auf den Schenken-Button klickst und mi
   publishable-key=&quot;pk_live_51QIlYaLrBLHuJoe9JaECAad04pTIKt0xuqOnOW51YEtbkyB07lLDzeHkmB60noN3qwlTPc25YFpgf0BzwzzKqWxc00Jcs6Gwr1&quot;
 &gt;
 &lt;/stripe-buy-button&gt;"
+                    adminlabel: "Stripe"
                 }
             }
         }
-    }
-
-    Section {
 
         Row {
 
