@@ -54,6 +54,26 @@ Und wenn nicht, ist das auch nicht schlimm."
 &lt;div class=&quot;row&quot;&gt;
 	&lt;ul class=&quot;sort-destination isotope&quot; data-sort-id=&quot;isotope-list&quot;&gt;
 
+		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 lifehacks&quot;&gt;
+			&lt;div class=&quot;item-box&quot;&gt;
+				&lt;figure&gt;
+					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;books/CrowdFundToTakeTheSystemDown-de.epub&quot;&gt;
+						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
+						&lt;span class=&quot;inner&quot;&gt;
+							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
+							&lt;strong&gt;BOOK&lt;/strong&gt; DETAILS
+						&lt;/span&gt;
+					&lt;/a&gt;
+					&lt;img class=&quot;img-responsive img-rounded&quot; src=&quot;assets/images/crowd-de.png&quot; width=&quot;260&quot; height=&quot;170&quot; alt=&quot;&quot;&gt;
+				&lt;/figure&gt;
+ 				&lt;div class=&quot;button-container&quot;&gt;
+          	     	&lt;a href=&quot;books/CrowdFundToTakeTheSystemDown-de.epub&quot; class=&quot;btn btn-icon&quot; target=&quot;_blank&quot;&gt;
+            	    	&lt;i class=&quot;fas fa-book&quot;&gt;&lt;/i&gt; EPUB
+            		&lt;/a&gt;
+        		&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+
 		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 lifehacks spiritual&quot;&gt;
 			&lt;div class=&quot;item-box&quot;&gt;
 				&lt;figure&gt;
