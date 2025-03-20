@@ -57,7 +57,7 @@ Und wenn nicht, ist das auch nicht schlimm."
 		&lt;li class=&quot;isotope-item col-sm-6 col-md-3 lifehacks&quot;&gt;
 			&lt;div class=&quot;item-box&quot;&gt;
 				&lt;figure&gt;
-					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;books/CrowdFundToTakeTheSystemDown-de.epub&quot;&gt;
+					&lt;a target=&quot;_blank&quot; class=&quot;item-hover&quot; href=&quot;https://www.amazon.de/dp/B0F1ZY6J7J&quot;&gt;
 						&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
 						&lt;span class=&quot;inner&quot;&gt;
 							&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
